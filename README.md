@@ -76,7 +76,7 @@ GET http://127.0.0.1:8000/api/login
 ```
 POST http://127.0.0.1:8000/api/categories
 ```
-++ Header:
+++ Headers:
 ```
 Key: Accept | Value: application/json
 Key: Authorization | Bearer <Token> [Take from login]
