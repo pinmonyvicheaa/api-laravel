@@ -67,7 +67,17 @@ http://127.0.0.1:8000
 
 # Example Postman Test
 
-- To test the API (e.g. product list):
+- To test the API (e.g. login):
 ```
-GET http://127.0.0.1:8000/api/products
+GET http://127.0.0.1:8000/api/login
+```
+
+- To test the API (e.g. add categories list):
+```
+POST http://127.0.0.1:8000/api/categories
+```
+++ Header:
+```
+Key: Accept | Value: application/json
+Key: Authorization | Bearer <Token> [Take from login]
 ```
