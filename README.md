@@ -45,7 +45,10 @@ Step 6: Run Migrations
 ```
 php artisan migrate
 ```
-- (Optional) Seed the Database [If you have seeders]:
- ```
-php artisan migrate --seed
+
+Step 7: (Optional) Seed the Database
+
+- If you have seeders:
+```
+php artisan db:seed
 ```
