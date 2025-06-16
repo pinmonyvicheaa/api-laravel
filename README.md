@@ -8,8 +8,8 @@ A backend API for an e-commerce platform built with Laravel. It handles products
 
 Step 1: Clone the Repository
 ```
-git clone https://github.com/pinmonyvicheaa/api-laravel.git
-cd api-laravel
+git clone https://github.com/pinmonyvicheaa/ecommerce-laravel-api.git
+cd ecommerce-laravel-api
 ```
 
 Step 2: Install Dependencies
