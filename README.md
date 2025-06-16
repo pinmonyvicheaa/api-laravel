@@ -52,3 +52,22 @@ Step 7: (Optional) Seed the Database
 ```
 php artisan db:seed
 ```
+
+Step 8: Serve the Application
+
+- Start the Laravel development server:
+```
+php artisan serve
+```
+
+- Now it should be running at:
+```
+http://127.0.0.1:8000
+```
+
+# Example Postman Test
+
+- To test the API (e.g. product list):
+```
+GET http://127.0.0.1:8000/api/products
+```
