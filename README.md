@@ -60,6 +60,12 @@ Step 8: Serve the Application
 php artisan serve
 ```
 
+Step 9: Link Images
+
+```
+php artisan storage:link
+```
+
 - Now it should be running at:
 ```
 http://127.0.0.1:8000
