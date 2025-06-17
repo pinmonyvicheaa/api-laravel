@@ -53,16 +53,16 @@ Step 7: (Optional) Seed the Database
 php artisan db:seed
 ```
 
-Step 8: Serve the Application
+Step 8: Link Images
+```
+php artisan storage:link
+```
+
+Step 9: Serve the Application
 
 - Start the Laravel development server:
 ```
 php artisan serve
-```
-
-Step 9: Link Images
-```
-php artisan storage:link
 ```
 
 - Now it should be running at:
